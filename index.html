@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - API Assignment</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to <em style="color: #0056b3">User dashboard!</em></h1>
+            <p class="subtitle">See random user profiles with country info, exchange rates, and news across the world</p>
+        </header>
+        <main>
+            <button id="loadUser">
+                 Get Random User
+            </button>
+            <div id="loading" style="display: none; text-align: center; padding: 20px;">
+                <p>Loading data... Please wait</p>
+            </div>
+            <div class="section">
+                <h2>User Profile</h2>
+                <div id="userDisplay">
+                    <p>Click the button above to load a user</p>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Country Information</h2>
+                <div id="countryDisplay">
+                    <p>Country info will appear here</p>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Exchange Rates</h2>
+                <div id="exchangeDisplay">
+                    <p>Exchange rates will appear here</p>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Latest News</h2>
+                <div id="newsDisplay">
+                    <p>News headlines will appear here</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Assignment 2 - API Integration | Birkhanym Kazhymukhamet | SE - 2414 </p>
+        </footer>
+    </div>
+    
+    <script src="public/js/main.js"></script>
+</body>
+</html>
